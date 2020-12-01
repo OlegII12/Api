@@ -1,3 +1,10 @@
+window.onload = function () {
+    let preloader = document.querySelector('.preloader');
+    preloader.classList.add('preloader_lock');
+}
+
+
+
 let inputMoney = document.querySelector('#money');
 let inputCoin = document.querySelector('#coin');
 let ExtrValue = document.querySelector('.currency-select');
